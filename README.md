@@ -1,6 +1,6 @@
 # Predicting Gambling Outcome using fMRI and Recurrent Neural Networks
 
-## Authors (Equal Contribution) <br> Amirhossein Zaboli, Manu Raghavan P V, Julia Plenert, Avisa Fallah, Rezvan Roushani
+### Authors (Equal Contribution): Amirhossein Zaboli, Manu Raghavan P V, Julia Plenert, Avisa Fallah, Rezvan Roushani
 
 ### Poster presented in Neuromatch Conference 2024
 <img src="Poster.jpg" alt="Poster" width="800" height="600"/>
