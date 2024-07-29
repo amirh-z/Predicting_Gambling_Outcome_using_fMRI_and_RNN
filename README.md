@@ -13,20 +13,21 @@ A Generalized Linear Model (GLM) was implemented as our baseline model. The GLM 
 For a more sophisticated approach, we developed a Long Short-Term Memory (LSTM) model. The LSTM is particularly suited for handling the temporal dynamics inherent in fMRI data, making it a promising candidate for capturing complex patterns over time.
 The performance of both the GLM and LSTM models were evaluated on the dataset using 10-fold cross validation to assess the generalization capability of our models and ensure robustness of our results. The average accuracy, precision and recall across these folds were utilized to compare model performance.
 ### Results
-The performance of the Generalized Linear Model (GLM), Long Short-Term Memory (LSTM) neural network, and the combined model were compared based on their average accuracy and mean ROC across all folds.
+The performance of the Generalized Linear Model (GLM), Long Short-Term Memory (LSTM) neural network, and the combined model were compared based on their average accuracy and mean AUC across all folds.
  
 **Generalized Linear Model (GLM) Performance:**
 * Average Accuracy: 64%
+* Mean AUC: 0.71
 * The GLM, serving as our baseline model, demonstrated moderate accuracy in predicting gambling outcomes. However, its performance indicates limitations in capturing the temporal dependencies inherent in fMRI data, as reflected by the average accuracy of 64%.
 
 **Long Short-Term Memory (LSTM) Model Performance:**
 * Average Accuracy: 81%
-* Mean ROC: 0.9
+* Mean AUC: 0.9
 * The LSTM model significantly outperformed the GLM. This improvement underscores the LSTM's capability to effectively handle the temporal dynamics present in fMRI data, allowing for more accurate predictions of gambling outcomes.
 
 **Combined GLM and LSTM Model Performance:**
 * Average Accuracy: 85%
-* Mean ROC: 0.9
+* Mean AUC: 0.9
 * To further enhance predictive performance, we combined the outputs of both the GLM and LSTM models. This combined approach yielded the highest average accuracy, indicating a synergistic effect that leverages the strengths of both models. The combined model thus provides the most robust predictions of gambling outcomes within the context of our dataset.
 
 ### Conclusions
