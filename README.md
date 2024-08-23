@@ -2,7 +2,7 @@
 
 ### Authors (Equal Contribution): Amirhossein Zaboli, Manu Raghavan P V, Julia Plenert, Avisa Fallah, Rezvan Roushani
 
-### Poster presented in Neuromatch Conference 2024
+### Poster
 <img src="Poster.jpg" alt="Poster" width="800" height="600"/>
 
 ### Background and Objectives 
